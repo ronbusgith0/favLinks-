@@ -15,7 +15,7 @@ function LinkContainer() {
 
     return (
         <div>
-            <h1>Favorite Links 🔗</h1>
+            <h1>🔗 Favorite Links 🔗</h1>
             <p>Place a new link with the name and URL to the table!</p>
             <Table linkData={favLinks} removeLink={handleRemove} />
             <h1>New Link!</h1>
